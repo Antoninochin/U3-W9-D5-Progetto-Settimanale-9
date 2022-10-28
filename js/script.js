@@ -24,9 +24,9 @@ class UserPhone {
         return this.getNumeroChiamate() * 0;
     }
 }
-let user1 = new UserPhone(15, 3);
-let user2 = new UserPhone(40, 5);
-let user3 = new UserPhone(35, 4);
+let user1 = new UserPhone(10, 3);
+let user2 = new UserPhone(15, 5);
+let user3 = new UserPhone(20, 4);
 console.log(user1);
 console.log("Hai effettuato una ricarica di: " + user1.ricarica() + "€");
 console.log("Il tuo saldo è di: " + user1.newCredito() + "€");
